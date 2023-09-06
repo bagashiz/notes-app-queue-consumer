@@ -1,0 +1,18 @@
+{
+  "name": "notes-app-queue-consumer",
+  "version": "1.0.0",
+  "description": "Consumer for Notes App queue",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/consumer.js"
+  },
+  "keywords": [],
+  "author": "bagashiz",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.5",
+    "pg": "^8.11.3"
+  }
+}
