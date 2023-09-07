@@ -4,7 +4,7 @@
   "description": "Consumer for Notes App queue",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/consumer.js"
+    "start": "node ./src/consumer.js"
   },
   "keywords": [],
   "author": "bagashiz",
